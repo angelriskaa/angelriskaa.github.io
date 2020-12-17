@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact | The Great Discontent (TGD)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div  class="container-fluid">
+    <div>
+        <a href="index.html"><img id="title" src="TGDLogoo.svg"></a>
+    </div>
+        <div id="contactTtl">
+            <h1>Contact Us Form</h1>
+        </div>
+    <div>
+        <form action="action_page.php" method="get">
+            <p><label for="nama"><strong>Nama : </strong></label><input type="text" id="nama" name="nama" maxlength="50"
+                placeholder=" Masukkan nama" required></p>
+            <p><label for="email"><strong>Email : </strong> </label><input type="email" id="email" name="email"
+                placeholder=" Masukan email" required></p>
+            <p><label for="username"><strong>Username : </strong></label><input type="text" id="uname" name="uname" maxlength="50"
+                placeholder=" Masukkan username" required></p>
+            <P><label for="password"><strong>Password : </strong> </label><input type="password" id="password" name="password"
+                placeholder=" Masukkan password" required></P>
+            <p><label for="jenis_kelamin"><strong>Jenis Kelamin : </strong></label>
+                <input type="radio" id="jenis_kelamin" name="jenis_kelamin" value="laki-laki">
+                <label for="laki-laki"><strong>Laki-laki</strong></label>
+                <input type="radio" id="jenis_kelamin" name="jenis_kelamin" value="perempuan">
+                <label for="perempuan"><strong>Perempuan</strong></label>
+            </p>
+            <p>
+                <label for="agama"><strong>Agama : </strong></label>
+                <select id ="agama" name="agama" size="1" selected>
+                    <option value="kp" selected><strong>Kristen Protestan</strong></option>
+                    <option value="im" selected><strong>Islam</strong></Option>
+                    <option value="bd" selected><strong>Budha</strong></option>
+                    <option value="kc" selected><strong>Konghucu</strong></option>
+                    <option value="ktlk" selected><strong>Katolik</strong></option>
+                </select>
+            </p>
+            <p>
+                <label for="alamat"><strong>Alamat : </strong></label>
+                <textarea id="alamat" name="alamat" rows="5" cols="30"></textarea>
+            </p>
+            <p>
+                <label for="hobi"><strong>Hobby : </strong></label>
+                <input type="checkbox" id="hobi1" name="hobi1" value="bermain_game">
+                <label><strong>Bermain game</strong></label>
+                <input type="checkbox" id="hobi2" name="hobi2" value="mendengarkan_musik">
+                <label><strong>Mendengarkan Musik</strong></label><br>
+                <input type="checkbox"id="hobi3" name="hobi3" value="main_musik">
+                <label><strong>Main Musik</strong></label>
+                <input type="checkbox"id="hobi4" name="hobi4" value="tidur">
+                <label><strong>Tidur</strong></label>
+                <input type="checkbox"id="hobi5" name="hobi5" value="tidak_ada" checked>
+                <label><strong>Tidak ada</strong></label>
+            </p>
+            
+            <p>
+                <input type="submit" value="Kirim">
+                <input type="reset" value="Reset">
+            </p>
+                
+        </form>
+    </div>
+</div>
+</body>
+</html>

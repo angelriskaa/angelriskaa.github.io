@@ -1,0 +1,36 @@
+*{
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+#title{
+    width: 481px;
+    margin-top: 23px;
+    padding-left: 18px;
+}
+#contactTtl{
+    margin-top: 20px;
+    margin-left: 23px;
+}
+img a:hover{
+    opacity: 0.6;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 15px;
+}
+ul, li, a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+li a:hover{
+    color: grey;
+}
+form{
+    text-align: left;
+    margin-top: 7px;
+    margin-left: 25px;
+    top: 10px;
+    
+}

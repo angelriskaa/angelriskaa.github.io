@@ -1,0 +1,205 @@
+*{
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+#title{
+    width: 481px;
+    margin-top: 23px;
+    padding-left: 18px;
+}
+a:hover img{
+    opacity: 0.6;
+}
+#black{
+    color: black;
+}
+div ul{
+    list-style-type: none;
+    float: right;
+}
+.black{
+    color: black;
+}
+div ul, li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 23px;
+    margin-top: 5px;
+}
+li a:hover{
+    color: grey;
+    text-decoration: none;
+}
+#m2bulls{
+    float: left;
+    width: 750px;
+    margin-top: 40px;
+    /* margin-left: 30px; */
+}
+#letter{
+    width: 420px;
+    margin-top: 40px;
+}
+#zykera{
+    float: left;
+    width: 750px;
+    margin-top: 40px;
+    margin-left: 16px;
+}
+#leon{
+    width: 410px;
+    height: 500px;
+    margin-top: 40px;
+    padding-right: 30px;
+}
+#rwatts{
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+#paula{
+    width: 600px;
+    margin-top: 40px;
+}
+#shawn{
+    width: 1245px;
+    margin-top: 40px;
+    margin-left: 16px;
+}
+#aaron{
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+#elle{
+    width: 600px;
+    margin-top: 40px;
+}
+#shopTGD{
+    width: 1245px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+#dana{
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+#jess{
+    width: 600px;
+    margin-top: 40px;
+}
+.footer{
+    padding-right: 30%;
+}
+p{
+    display: inline-block;
+}
+#bottomtext{
+    margin-left: 25px;
+}
+#TGD{
+    float: right;
+    margin-left: 100%;
+}
+h2{
+    padding-top: 60px;
+    margin-left: 15px;
+    
+}
+.font{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+.font2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.text{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+#films1{
+    width: 1280px;
+    margin-left: 5px;
+}
+#films2{
+    width: 625px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#films3{
+    width: 625px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#bio{
+    padding-top: 40px;
+    margin-left: 20px;
+}
+#bioTitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+#bioPhoto{
+    width: 240px;
+    float: left;
+}
+.textCenter{
+    font-family: 'Caveat', cursive;
+    text-align: justify;
+    margin-left: 15px;
+    font-size: 20px;
+}
+#follow{
+    padding-top: 50px;
+    margin-left: 20px;
+}
+#sign{
+    padding-top: 25px;
+    margin-left: 20px;
+}
+#ig{
+    width: 150px;
+    margin-left: 39px;
+}
+#twt{
+    width: 150px;
+    margin-left: 15px;
+}
+#fb{
+    width: 150px;
+    margin-left: 39px;
+    margin-top: 20px;
+}
+#ello{
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#feeds{
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#followText{
+    margin-left: 21px;
+}
+#followText2{
+    margin-left: 21px;
+}
+#contactTtl{
+    padding-top: 40px;
+    margin-left: 20px;
+}
+form{
+    display: inline-block;
+    text-align: left;
+    margin-top: 7px;
+    margin-left: 20px;
+    top: 10px;   
+}
